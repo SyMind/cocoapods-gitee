@@ -4,12 +4,12 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'cocoapods-gitee/gem_version.rb'
 
 Gem::Specification.new do |spec|
-  spec.name          = CocoapodsGithooks::NAME
-  spec.version       = CocoapodsGithooks::VERSION
+  spec.name          = CocoapodsGitee::NAME
+  spec.version       = CocoapodsGitee::VERSION
   spec.authors       = ['SyMind']
   spec.email         = ['dacongsama@live.com']
-  spec.description   = %q{CocoaPod plugin to use gitee mirrors when downloading dependencies.}
-  spec.summary       = %q{CocoaPod plugin to use gitee mirrors when downloading dependencies.}
+  spec.description   = %q{CocoaPod 插件用于使用 gitee 镜像下载依赖。}
+  spec.summary       = %q{使用 gitee 镜像仓库下载原存储在 github 仓库下的依赖，提升安装速度。}
   spec.homepage      = 'https://github.com/SyMind/cocoapods-gitee'
   spec.license       = 'MIT'
 

@@ -13,4 +13,5 @@ group :development do
 
   gem 'open-uri'
   gem 'nokogiri'
+  gem 'thread'
 end

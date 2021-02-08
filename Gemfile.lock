@@ -89,6 +89,7 @@ GEM
     racc (1.5.2)
     rake (13.0.3)
     ruby-macho (1.4.0)
+    thread (0.2.2)
     thread_safe (0.3.6)
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
@@ -115,6 +116,7 @@ DEPENDENCIES
   open-uri
   prettybacon
   rake
+  thread
 
 BUNDLED WITH
    1.17.2
