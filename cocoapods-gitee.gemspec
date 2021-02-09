@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = CocoapodsGitee::VERSION
   spec.authors       = ['SyMind']
   spec.email         = ['dacongsama@live.com']
-  spec.description   = %q{CocoaPod 插件用于使用 gitee 镜像下载依赖。}
+  spec.description   = %q{Using gitee mirrors to download dependencies.}
   spec.summary       = %q{使用 gitee 镜像仓库下载原存储在 github 仓库下的依赖，提升安装速度。}
-  spec.homepage      = 'https://github.com/SyMind/cocoapods-gitee'
+  spec.homepage      = 'https://gitee.com/SyMind/cocoapods-gitee'
   spec.license       = 'MIT'
 
   spec.files         = `git ls-files`.split($/)
