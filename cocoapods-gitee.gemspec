@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['SyMind']
   spec.email         = ['dacongsama@live.com']
   spec.description   = %q{Using gitee mirrors to download dependencies.}
-  spec.summary       = %q{使用 gitee 镜像仓库下载原存储在 github 仓库下的依赖，提升安装速度。}
+  spec.summary       = %q{Using gitee mirrors to download dependencies.}
   spec.homepage      = 'https://gitee.com/SyMind/cocoapods-gitee'
   spec.license       = 'MIT'
 
